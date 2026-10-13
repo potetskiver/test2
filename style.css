@@ -17,5 +17,6 @@ h1 {
   position: static;
   font-size: clamp(32px, 8vw, 64px);
   animation: rainbow 5s linear infinite;
+  font-family: 'Helvetica', sans-serif;
   z-index: 0;
 }
