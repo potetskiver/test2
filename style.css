@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+@keyframes rainbow {
+  0% { color: red; }
+  24% { color: lime; }
+  40% { color: cyan; }
+  60% { color: blue; }
+  85% { color: purple; }
+  100% { color: red; }
+}
+
+h1 {
+  position: static;
+  font-size: clamp(32px, 8vw, 64px);
+  animation: rainbow 5s linear infinite;
+  z-index: 0;
+}
